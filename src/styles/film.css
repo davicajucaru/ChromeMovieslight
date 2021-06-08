@@ -1,0 +1,41 @@
+ .page {
+   width: min(80vh, 800px);
+   margin: auto;
+ }
+
+ .film {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .film a {
+   color: black;
+ }
+
+#title, #overview, #data {
+  color: black;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button-group {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ margin-top: 20px;
+}
+
+.button-group .active{
+  background-color: yellow;
+}

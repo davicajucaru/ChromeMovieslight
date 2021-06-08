@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: black;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+
+#navigation a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#navigation a + a {
+  margin-left: 2rem;
+}
+
+#search input {
+  width: 320px;
+  height: 2rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100px;
+  background-color:black;
+  padding: 0 0 0 2rem;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .menu a{
+  color: black;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header .menu a img {
+  margin-right: 5px;
+  margin-bottom: -6px;
+}
+
+
+.header .menu a + a {
+  margin-left: 2rem;
+}
+
